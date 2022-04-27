@@ -1,3 +1,4 @@
 export const environment = {
-  production: true.valueOf
+  production: true,
+  baseUrl: 'https://thiago-bookstore-api.herokuapp.com/'
 };
