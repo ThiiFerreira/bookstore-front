@@ -25,11 +25,11 @@ const routes: Routes = [
     component: CategoriaCreateComponent
   },
   {
-    path: 'categorias/delete/:id',
+    path: 'categorias/:id/delete',
     component: CategoriaDeleteComponent
   },
   {
-    path: 'categorias/update/:id',
+    path: 'categorias/:id/update',
     component: CategoriaUpdateComponent
   },
   {
