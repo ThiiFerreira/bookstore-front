@@ -10,3 +10,15 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+
+const start = () => {
+  platformBrowserDynamic().bootstrapModule(AppModule)
+    .catch(err => console.error(err));
+};
+
+if (environment.production) {
+  enableProdMode();
+  window.location.reload();
+} else {
+  start();
+}
