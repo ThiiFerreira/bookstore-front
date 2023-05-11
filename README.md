@@ -1,5 +1,12 @@
 # BookstoreFront
 
+## Para ver a aplicaçao funcionando: 
+É so acessar esse link https://thiago-bookstore-front.herokuapp.com/ <br>
+Aplicação está consumindo uma API feita em JAVA com SPRING BOOT ANGULAR, disponivel em https://github.com/ThiiFerreira/bookstore-api
+#### Observação:
+Depois de um tempinho de inatividade a aplicação "dorme", caso acesse depois desse tempo de inatividade é só aguardar um pouquinho que a aplicação volta resetada 😊.
+
+##
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
 ## Development server
